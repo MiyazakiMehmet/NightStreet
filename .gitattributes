@@ -1,7 +1,3 @@
-# Unity Mathematica Sorunu Çözümü
-
-# .wlt dosyalarını (Unity Layout) Mathematica sanma, bunları gizle
+# Unity Mathematica Fix
 *.wlt linguist-vendored
-
-*.ma linguist-vendored
-*.m linguist-language=Objective-C
+*.wlt linguist-language=YAML
