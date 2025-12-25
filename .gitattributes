@@ -1,0 +1,3 @@
+# Unity Mathematica Fix
+*.wlt linguist-vendored
+*.wlt linguist-language=YAML

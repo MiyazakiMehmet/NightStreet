@@ -97,3 +97,14 @@ InitTestScene*.unity*
 
 # Auto-generated scenes by play mode tests
 /[Aa]ssets/[Ii]nit[Tt]est[Ss]cene*.unity*
+
+# Unity Mathematica Sorunu Çözümü
+
+# .m dosyalarını Mathematica değil, Objective-C olarak say (iOS pluginleri için)
+*.m linguist-language=Objective-C
+
+# Maya model dosyalarını (.ma) dil istatistiklerinden gizle
+*.ma linguist-vendored
+
+# Meta dosyalarını istatistikten çıkar
+*.meta linguist-vendored
