@@ -8,7 +8,7 @@ Material:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: Asphalt
-  m_Shader: {fileID: -6465566751694194690, guid: 199ca616d21e78d4fb850c00587e90fd, type: 3}
+  m_Shader: {fileID: -6465566751694194690, guid: 3052d3eefefa72540b7f5caca2ba4d3c, type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
   m_ValidKeywords: []
@@ -65,7 +65,7 @@ Material:
         m_Scale: {x: 111, y: 111}
         m_Offset: {x: 0, y: 0}
     - _MainTexture:
-        m_Texture: {fileID: 2800000, guid: fc475b3b7834e4a47a707e18af7a1d7d, type: 3}
+        m_Texture: {fileID: 2800000, guid: ba2795888c1083d479d0ad9d3f96de19, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _Mask:
@@ -81,7 +81,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _NormalMap:
-        m_Texture: {fileID: 2800000, guid: ca79d2e753edb0243bbcc8e6e1f10d45, type: 3}
+        m_Texture: {fileID: 2800000, guid: 5689022ff9605a340843d93724093021, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _OcclusionMap:
@@ -90,6 +90,14 @@ Material:
         m_Offset: {x: 0, y: 0}
     - _ParallaxMap:
         m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Puddle:
+        m_Texture: {fileID: 2800000, guid: dae9bc2488793c64cb9b570ac56c7cfb, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Ripple:
+        m_Texture: {fileID: 2800000, guid: e4c2ad8359da64b40a49d4ef26ed1308, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _SampleTexture2D_c1b606303daf4fa9ae22ac40e4b8210a_Texture_1_Texture2D:
@@ -127,11 +135,13 @@ Material:
     - _Cutoff: 0.5
     - _DetailAlbedoMapScale: 1
     - _DetailNormalMapScale: 1
-    - _DryBrightness: 0.048
+    - _DryBrightness: 0.084
     - _DrySmoothness: 0.2
     - _DstBlend: 0
     - _DstBlendAlpha: 0
     - _EnvironmentReflections: 1
+    - _FlowTiling_1: 400
+    - _Flow_1: 0.01
     - _GlossMapScale: 0
     - _Glossiness: 0
     - _GlossyReflections: 0
@@ -164,8 +174,8 @@ Material:
     - _Surface: 0
     - _Tiling: 15
     - _UseUIAlphaClip: 0
-    - _WaterAmount: 0.054
-    - _WetBrightness: 0.952
+    - _WaterAmount: 0.108
+    - _WetBrightness: 1
     - _WetDarkening: 0
     - _WetSmoothness: 0.95
     - _WorkflowMode: 1
@@ -176,7 +186,13 @@ Material:
     - _BaseColor: {r: 0.3962264, g: 0.3962264, b: 0.3962264, a: 1}
     - _Color: {r: 0.39622638, g: 0.39622638, b: 0.39622638, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
+    - _Flow: {r: 0.01, g: 0, b: 0, a: 0}
+    - _FlowTiling: {r: 0, g: 0, b: 0, a: 0}
     - _MainColor: {r: 0.27358484, g: 0.27358484, b: 0.27358484, a: 1}
+    - _MainTiling: {r: 12, g: 12, b: 0, a: 0}
+    - _RippleSpeed: {r: 0.6, g: 0.1, b: 0, a: 0}
+    - _RippleTiling: {r: 204, g: 200, b: 0, a: 0}
+    - _SmoothTiling: {r: 0.05, g: 0.06, b: 0, a: 0}
     - _SpecColor: {r: 0.19999996, g: 0.19999996, b: 0.19999996, a: 1}
     - _Specular: {r: 0, g: 0, b: 0, a: 0}
   m_BuildTextureStacks: []
